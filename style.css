@@ -1,0 +1,57 @@
+.container {
+    background-color: #fdde7e; /* задает цвет фона */
+    display: flex; /* делает из блока flex-box */
+    justify-content: space-around; /* выравнивание flex-box, расскажу подробнее*/
+    padding: 50px 15px; /* паддинг топ и паддинг боттом по 50пикс, боковые по 15 */
+    margin: auto; /* задает авто отступы со всех сторон */
+    max-width: 1200px; /* максимальная ширина */
+    align-items: center; /* выровнять детей по высоте по центру */
+}
+
+.card {
+    margin: 0 15px; /* внешние отступы: верхний, нижний 0, боковые по 15 */
+    width: 30%; /* ширина 30% */
+    padding-top: 42px; /* верхний внутренний отступ 42пикс */
+    padding-bottom: 36px; /* нижний внутренний отступ 35пикс */
+    text-align: center; /* выровнять тест/содержимое по центру */
+    background-color: #fff; /* цыет фона белый */
+}
+
+.active {
+    padding-top: 52px;
+    padding-bottom: 55px;
+}
+.active .card-price {
+    margin-bottom: 43px;
+}
+.card-price {
+    color: #02995b;
+    font-family: Miso, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    display: block; 
+    margin-bottom: 23px;
+}
+
+.card-img {
+    display: inline-block;
+}
+
+.card-title {
+    margin-top: 38px;
+    margin-bottom: 30px;
+    color: #333333;
+    font-family: Miso, sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.card-text {
+    font-family: "Lato Light, sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    max-width: 134px;
+    margin: 0 auto;
+}
